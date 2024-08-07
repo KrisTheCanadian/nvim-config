@@ -1,6 +1,8 @@
-return {
-	"github/copilot.vim",
-}
+return {}
+
+-- {
+-- 	"github/copilot.vim",
+--}
 
 -- Alternative to copilot/cmp plugins
 -- return {

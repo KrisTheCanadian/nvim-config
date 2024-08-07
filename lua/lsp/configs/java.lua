@@ -58,7 +58,7 @@ return {
 				allow_incremental_sync = true,
 			},
 			--root_dir = require("jdtls.setup").find_root({"build.gradle", "pom.xml", ".git"}),
-			root_dir = jdtls.setup.find_root({ ".git", "pom.xml" }),
+			root_dir = jdtls.setup.find_root({ ".git", "pom.xml", ".classpath" }),
 
 			on_init = function(client)
 				if client.config.settings then
